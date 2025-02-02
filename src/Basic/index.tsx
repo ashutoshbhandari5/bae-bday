@@ -232,6 +232,16 @@ export default function BasicDemo(props: Props) {
             <img src="./future.jpeg" alt="firstTime" height={120} width={350} />
           </div>
         </Section>
+        <div className="flex justify-center items-center">
+          <button
+            onClick={() => {
+              window.open('https://bday-celebration.vercel.app/', '_blank');
+            }}
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          >
+            Let's celebrate🎉
+          </button>
+        </div>
       </Box>
     </>
   );

@@ -6,6 +6,9 @@ import { getScreenSize } from './modules/helpers';
 
 import './index.css';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CelebrationPage from './Celebrate';
+
 function App() {
   const [breakpoint, setBreakpoint] = useState(getScreenSize());
   const debounceTimeout = useRef(0);
@@ -30,7 +33,9 @@ function App() {
 
   return (
     <main role="main">
-      <Basic breakpoint={breakpoint} />
+      <main role="main">
+        <Basic breakpoint={breakpoint} />
+      </main>
     </main>
   );
 }
