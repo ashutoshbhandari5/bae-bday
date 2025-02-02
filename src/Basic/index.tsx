@@ -45,7 +45,7 @@ export default function BasicDemo(props: Props) {
             className="rounded-full border-4 border-blue-300"
           />
           <h2 style={{ color: 'white' }} className="bg-blue-300 px-4 py-2 rounded-lg my-3 text-lg">
-            26 years old
+            Growing to be more beautiful🎀
           </h2>
           <h4 style={{ color: 'white' }} className="bg-blue-300 px-4 py-2 rounded-lg text-lg">
             2025 Feb 2
