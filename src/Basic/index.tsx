@@ -8,7 +8,12 @@ function Section(props: Props.BoxProps) {
   return <FlexCenter color="#fff" height="115vh" px="md" py="xl" {...props} />;
 }
 
-const GiftSection = ({ title, hoverImg }) => {
+interface GiftSectionProps {
+  title: string;
+  hoverImg: string;
+}
+
+const GiftSection: React.FC<GiftSectionProps> = ({ title, hoverImg }) => {
   return (
     <div className="flex flex-col items-center">
       <h2 style={{ color: 'white' }} className="text-xl font-semibold">
