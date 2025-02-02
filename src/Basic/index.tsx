@@ -47,9 +47,6 @@ export default function BasicDemo(props: Props) {
           <h2 style={{ color: 'white' }} className="bg-blue-300 px-4 py-2 rounded-lg my-3 text-lg">
             Growing to be more beautiful🎀
           </h2>
-          <h4 style={{ color: 'white' }} className="bg-blue-300 px-4 py-2 rounded-lg text-lg">
-            2025 Feb 2
-          </h4>
         </div>
 
         {/* Gift Sections */}
