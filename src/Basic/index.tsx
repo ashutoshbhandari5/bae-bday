@@ -20,6 +20,8 @@ const GiftSection: React.FC<GiftSectionProps> = ({ title, hoverImg }) => {
         {title}
       </h2>
       <img
+        height={250}
+        width={250}
         className="w-96 h-96 bg-cover bg-center border-4 border-white rounded-lg transition-all duration-300 hover:bg-[url('/images/gift-cover.jpg')]"
         src={hoverImg}
       ></img>
@@ -64,10 +66,7 @@ export default function BasicDemo(props: Props) {
             title="If I had to describe you with ONE word 👇"
             hoverImg="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWxlOWxoengzeTQzdXVwc3c1MmRleWNmbDBrcjA0MmNxcDFydDB2NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/adtq8F4LHJOFnDxuGS/giphy.gif"
           />
-          <GiftSection
-            title="The only person as badass as you 💪"
-            hoverImg="https://media.giphy.com/media/WoRz0xf3fUBWTWXUJ0/giphy-downsized-large.gif"
-          />
+          <GiftSection title="The only person as badass as you 💪" hoverImg="./badass.jpg" />
         </div>
       </div>
       <Box minHeight="90vh">
