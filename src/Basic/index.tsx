@@ -81,7 +81,7 @@ export default function BasicDemo(props: Props) {
             style={{ backgroundImage: "url('/mainpic.jpg')" }}
           >
             <h1 style={{ color: 'white', padding: '0 10px' }}>
-              Let's go through our journey and see how you make my like special⭐
+              Let's go through our journey and see how you make my life special⭐
             </h1>
           </div>
         </section>
